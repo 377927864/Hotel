@@ -1,0 +1,61 @@
+/*全局样式修饰*/
+*{
+	/*字体修饰*/
+	font-family: "Microsoft Yahei";
+/*	font-size:12px;*/
+	/*全局样式对全部标签去掉内外边距*/
+	margin:0;
+	padding: 0;
+}
+a{
+	color:#666;
+	font-size: 12px;
+	/*去掉下划线*/
+	text-decoration: none;
+}
+a:hover{
+	color:#3983E5;
+}
+li{
+	/*把li的小圆点去掉*/
+	list-style: none;
+}
+.rePosition{
+	position: relative;
+}
+.abPosition{
+	position: absolute;
+}
+.width910{
+	width:910px;
+}
+.width680{
+	width:680px;
+}
+.top10{
+	margin-top:10px;
+}
+.bottom10{
+	margin-bottom: 10px;
+}
+.bgBlue{
+	background: #ABCBF5;
+}
+.bgGreen{
+	background: #CBE2B3;
+}
+.bgOrange{
+	background: #F6DBB9;
+}
+#btNone{
+	border-bottom: none;
+}
+.blueColor{
+	color:#2577E3;
+}
+.orangeColor{
+	color:#FFB759;
+}
+.font12{
+	font-size: 12px;
+}
